@@ -156,46 +156,52 @@ export const projects: Record<Locale, Project[]> = {
       imageSrc: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80'
     },
     {
-      id: 'infinite-canvas',
-      title: 'Maker.ai Infinite Canvas Editor',
-      description: 'Infinite-canvas editing experience built with Vue + Fabric.js, with mobile usability improvements and Tailwind migration',
-      longDescription: 'Built an infinite-canvas editor using Vue.js and Fabric.js, focusing on editing interactions, panning/zooming behavior, and mobile usability. Migrated styling to Tailwind CSS to improve consistency and velocity.',
-      technologies: ['Vue', 'Fabric.js', 'TypeScript', 'Tailwind CSS'],
+      id: 'ai-canvas',
+      title: 'AI Canvas',
+      description: 'Generate images with AI using Replicate API. Enter a prompt and create stunning visuals instantly.',
+      longDescription: 'An interactive AI image generation tool built with Next.js and the Replicate API. Users can enter text prompts to generate images using Stable Diffusion XL, with options to download the results.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Replicate API'],
       highlights: [
-        'Infinite-canvas editing experience with complex interactions',
-        'Mobile usability improvements and responsive behavior',
-        'Styling migration to Tailwind CSS for consistency'
+        'AI-powered image generation with SDXL model',
+        'Real-time generation status and preview',
+        'Download generated images directly'
       ],
+      link: 'https://ai-canvas-seven.vercel.app',
+      github: 'https://github.com/aniitasmith/ai-canvas',
+      featured: true,
+      imageSrc: 'https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80'
+    },
+    {
+      id: 'json-formatter',
+      title: 'JSON Formatter',
+      description: 'Format, validate, and minify JSON with syntax highlighting. A developer tool for working with JSON data.',
+      longDescription: 'A clean and simple JSON formatting tool with syntax highlighting, validation, and minification. Features dark mode support and instant copy to clipboard functionality.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Syntax Highlighter'],
+      highlights: [
+        'Real-time JSON validation with error messages',
+        'Format and minify with one click',
+        'Dark/light mode toggle'
+      ],
+      link: 'https://json-formatter-five-mu.vercel.app',
+      github: 'https://github.com/aniitasmith/json-formatter',
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80'
     },
     {
-      id: 'product-workflows',
-      title: 'Interactive Video Editor (Redesign)',
-      description: 'Redesigned product UI into an interactive video editor with reusable UI patterns and complex editing interactions',
-      longDescription: 'Led a redesign that turned the product into an interactive video editor. Focused on building editing interactions, reusable component patterns, and wiring UI flows to backend services while supporting fast release cycles.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+      id: 'color-palette',
+      title: 'Color Palette Generator',
+      description: 'Generate beautiful color palettes instantly. Lock colors you like and regenerate the rest.',
+      longDescription: 'A color palette generator with the ability to lock individual colors, copy hex/rgb values, and export as CSS variables. Press space to generate new palettes quickly.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
       highlights: [
-        'Complex editing interactions and reusable UI patterns',
-        'UI/UX improvements tied to backend service flows',
-        'Supported fast release cycles with reliable delivery'
+        'Generate random palettes with spacebar shortcut',
+        'Lock individual colors while regenerating others',
+        'Export palette as CSS variables'
       ],
+      link: 'https://color-palette-seven-lemon.vercel.app',
+      github: 'https://github.com/aniitasmith/color-palette',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80'
-    },
-    {
-      id: 'product-apis',
-      title: 'Product APIs & Integrations',
-      description: 'Backend APIs and integrations for video generation, data persistence, and product workflows using Python and PostgreSQL',
-      longDescription: 'Built and maintained APIs and integrations for product workflows using Python (FastAPI) and PostgreSQL (SQLAlchemy). Supported generation pipelines, data persistence, and feature delivery across the platform.',
-      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Docker'],
-      highlights: [
-        'APIs for generation, upload, and job status used by frontend and extensions',
-        'Data persistence and feature delivery across product workflows',
-        'Integration with internal services and third-party APIs'
-      ],
-      featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80'
+      imageSrc: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=800&q=80'
     }
   ],
   es: [
@@ -215,46 +221,52 @@ export const projects: Record<Locale, Project[]> = {
       imageSrc: 'https://images.unsplash.com/photo-1485846234645-a62644f84728?w=800&q=80'
     },
     {
-      id: 'infinite-canvas',
-      title: 'Maker.ai — Editor de Canvas Infinito',
-      description: 'Experiencia de edición en canvas infinito con Vue + Fabric.js, mejoras mobile y migración a Tailwind',
-      longDescription: 'Construí un editor de canvas infinito usando Vue.js y Fabric.js, enfocándome en interacciones de edición, pan/zoom y usabilidad móvil. Migré estilos a Tailwind CSS para consistencia y velocidad.',
-      technologies: ['Vue', 'Fabric.js', 'TypeScript', 'Tailwind CSS'],
+      id: 'ai-canvas',
+      title: 'AI Canvas',
+      description: 'Genera imágenes con IA usando la API de Replicate. Escribe un prompt y crea visuales impresionantes al instante.',
+      longDescription: 'Una herramienta interactiva de generación de imágenes con IA construida con Next.js y la API de Replicate. Los usuarios pueden escribir prompts de texto para generar imágenes usando Stable Diffusion XL, con opción de descargar los resultados.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Replicate API'],
       highlights: [
-        'Experiencia de edición en canvas infinito con interacciones complejas',
-        'Mejoras de usabilidad móvil y comportamiento responsivo',
-        'Migración de estilos a Tailwind CSS para consistencia'
+        'Generación de imágenes con IA usando el modelo SDXL',
+        'Estado de generación en tiempo real y preview',
+        'Descarga directa de las imágenes generadas'
       ],
+      link: 'https://ai-canvas-seven.vercel.app',
+      github: 'https://github.com/aniitasmith/ai-canvas',
+      featured: true,
+      imageSrc: 'https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80'
+    },
+    {
+      id: 'json-formatter',
+      title: 'JSON Formatter',
+      description: 'Formatea, valida y minifica JSON con syntax highlighting. Una herramienta para desarrolladores.',
+      longDescription: 'Una herramienta simple y limpia para formatear JSON con syntax highlighting, validación y minificación. Incluye modo oscuro y función de copiar al portapapeles.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Syntax Highlighter'],
+      highlights: [
+        'Validación de JSON en tiempo real con mensajes de error',
+        'Formatear y minificar con un click',
+        'Toggle de modo oscuro/claro'
+      ],
+      link: 'https://json-formatter-five-mu.vercel.app',
+      github: 'https://github.com/aniitasmith/json-formatter',
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80'
     },
     {
-      id: 'product-workflows',
-      title: 'Editor de Video Interactivo (Rediseño)',
-      description: 'Rediseño del producto hacia un editor de video interactivo con patrones de UI reutilizables e interacciones de edición',
-      longDescription: 'Lideré un rediseño que convirtió el producto en un editor de video interactivo. Enfoque en interacciones de edición, patrones de componentes reutilizables y conexión de flujos de UI con servicios backend, soportando ciclos de release rápidos.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Supabase'],
+      id: 'color-palette',
+      title: 'Generador de Paletas de Color',
+      description: 'Genera paletas de colores hermosas al instante. Bloquea los colores que te gusten y regenera el resto.',
+      longDescription: 'Un generador de paletas de colores con la capacidad de bloquear colores individuales, copiar valores hex/rgb y exportar como variables CSS. Presiona espacio para generar nuevas paletas rápidamente.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS'],
       highlights: [
-        'Interacciones de edición complejas y patrones de UI reutilizables',
-        'Mejoras de UI/UX conectadas a flujos con servicios backend',
-        'Soporte de ciclos de release rápidos con entrega confiable'
+        'Genera paletas aleatorias con el atajo de espacio',
+        'Bloquea colores individuales mientras regeneras otros',
+        'Exporta la paleta como variables CSS'
       ],
+      link: 'https://color-palette-seven-lemon.vercel.app',
+      github: 'https://github.com/aniitasmith/color-palette',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80'
-    },
-    {
-      id: 'product-apis',
-      title: 'APIs e integraciones de producto',
-      description: 'APIs backend e integraciones para generación de video, persistencia de datos y flujos de producto con Python y PostgreSQL',
-      longDescription: 'Construí y mantuve APIs e integraciones para flujos de producto con Python (FastAPI) y PostgreSQL (SQLAlchemy). Soporté pipelines de generación, persistencia de datos y entrega de features en la plataforma.',
-      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Docker'],
-      highlights: [
-        'APIs de generación, upload y estado de jobs usadas por frontend y extensiones',
-        'Persistencia de datos y entrega de features en flujos de producto',
-        'Integración con servicios internos y APIs de terceros'
-      ],
-      featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80'
+      imageSrc: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=800&q=80'
     }
   ]
 }
