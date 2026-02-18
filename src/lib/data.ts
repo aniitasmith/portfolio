@@ -182,6 +182,20 @@ export const projects: Record<Locale, Project[]> = {
       ],
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80'
+    },
+    {
+      id: 'product-apis',
+      title: 'Product APIs & Integrations',
+      description: 'Backend APIs and integrations for video generation, data persistence, and product workflows using Python and PostgreSQL',
+      longDescription: 'Built and maintained APIs and integrations for product workflows using Python (FastAPI) and PostgreSQL (SQLAlchemy). Supported generation pipelines, data persistence, and feature delivery across the platform.',
+      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Docker'],
+      highlights: [
+        'APIs for generation, upload, and job status used by frontend and extensions',
+        'Data persistence and feature delivery across product workflows',
+        'Integration with internal services and third-party APIs'
+      ],
+      featured: true,
+      imageSrc: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80'
     }
   ],
   es: [
@@ -227,6 +241,20 @@ export const projects: Record<Locale, Project[]> = {
       ],
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80'
+    },
+    {
+      id: 'product-apis',
+      title: 'APIs e integraciones de producto',
+      description: 'APIs backend e integraciones para generación de video, persistencia de datos y flujos de producto con Python y PostgreSQL',
+      longDescription: 'Construí y mantuve APIs e integraciones para flujos de producto con Python (FastAPI) y PostgreSQL (SQLAlchemy). Soporté pipelines de generación, persistencia de datos y entrega de features en la plataforma.',
+      technologies: ['Python', 'FastAPI', 'PostgreSQL', 'SQLAlchemy', 'Docker'],
+      highlights: [
+        'APIs de generación, upload y estado de jobs usadas por frontend y extensiones',
+        'Persistencia de datos y entrega de features en flujos de producto',
+        'Integración con servicios internos y APIs de terceros'
+      ],
+      featured: true,
+      imageSrc: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80'
     }
   ]
 }

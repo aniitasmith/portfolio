@@ -4,7 +4,6 @@ import emojiRegex from 'emoji-regex'
 
 const props = defineProps<{
   text: string
-  /** Size of emoji as CSS value (e.g. '1em', '1.2em'). Default 1em. */
   emojiSize?: string
 }>()
 
