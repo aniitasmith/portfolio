@@ -36,8 +36,7 @@ const featuredProjects = computed(() => localeProjects.value.filter(p => p.featu
     <!-- Hero -->
     <section id="home" class="relative z-10 pt-28 pb-16 px-4 sm:px-6 lg:px-8">
       <div class="max-w-5xl mx-auto">
-        <div class="mb-8">
-          <p class="text-2xl mb-4">👋</p>
+        <div class="mb-2">
           <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
             <span class="block">{{ t('home.title') }}</span>
             <span class="block text-accent">{{ t('home.subtitle') }} ✨</span>
@@ -74,7 +73,7 @@ const featuredProjects = computed(() => localeProjects.value.filter(p => p.featu
     </section>
 
     <!-- About -->
-    <section id="about" class="relative z-10 py-14 px-4 sm:px-6 lg:px-8">
+    <section id="about" class="relative z-10 py-10 px-4 sm:px-6 lg:px-8">
       <SectionReveal>
         <div class="max-w-5xl mx-auto">
           <SectionHeading :title="`✨ ${t('about.title')}`" />
