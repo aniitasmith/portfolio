@@ -7,6 +7,7 @@ import type { Locale } from '@/i18n'
 import ExperienceTabs from '@/components/ExperienceTabs.vue'
 import SectionHeading from '@/components/SectionHeading.vue'
 import SectionReveal from '@/components/SectionReveal.vue'
+import EmojiText from '@/components/EmojiText.vue'
 import { MapPin, Mail, GitBranch, Linkedin, FileDown, ExternalLink } from 'lucide-vue-next'
 
 const route = useRoute()
@@ -39,9 +40,9 @@ const featuredProjects = computed(() => localeProjects.value.filter(p => p.featu
         <div class="mb-2">
           <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
             <span class="block">{{ t('home.title') }}</span>
-            <span class="block text-accent">{{ t('home.subtitle') }} ✨</span>
+            <span class="block text-accent"><EmojiText :text="`${t('home.subtitle')} ✨`" /></span>
             <span class="block text-foreground-muted text-2xl sm:text-3xl md:text-4xl mt-2 font-normal">
-              🎨 {{ t('home.heroTagline') }}
+              <EmojiText :text="`🎨 ${t('home.heroTagline')}`" />
             </span>
           </h1>
         </div>
@@ -79,28 +80,28 @@ const featuredProjects = computed(() => localeProjects.value.filter(p => p.featu
           <SectionHeading :title="`✨ ${t('about.title')}`" />
           <div class="grid md:grid-cols-2 gap-8">
             <div class="bg-surface/80 backdrop-blur-sm rounded-2xl border border-separator/40 p-8 shadow-lg">
-              <p class="text-2xl mb-4">👩‍💻</p>
+              <p class="text-2xl mb-4"><EmojiText text="👩‍💻" /></p>
               <p class="text-lg text-foreground leading-relaxed">
                 {{ t('about.bio') }}
               </p>
             </div>
             <div class="bg-surface/80 backdrop-blur-sm rounded-2xl border border-separator/40 p-8 shadow-lg">
-              <h3 class="text-xl font-semibold text-foreground mb-4">💡 {{ t('about.focus') }}</h3>
+              <h3 class="text-xl font-semibold text-foreground mb-4"><EmojiText :text="`💡 ${t('about.focus')}`" /></h3>
               <ul class="space-y-3">
                 <li class="flex items-start text-foreground">
-                  <span class="mr-3 mt-0.5">🎬</span>
+                  <span class="mr-3 mt-0.5"><EmojiText text="🎬" /></span>
                   <span>{{ t('about.focus1') }}</span>
                 </li>
                 <li class="flex items-start text-foreground">
-                  <span class="mr-3 mt-0.5">🖼️</span>
+                  <span class="mr-3 mt-0.5"><EmojiText text="🖼️" /></span>
                   <span>{{ t('about.focus2') }}</span>
                 </li>
                 <li class="flex items-start text-foreground">
-                  <span class="mr-3 mt-0.5">⚡</span>
+                  <span class="mr-3 mt-0.5"><EmojiText text="⚡" /></span>
                   <span>{{ t('about.focus3') }}</span>
                 </li>
                 <li class="flex items-start text-foreground">
-                  <span class="mr-3 mt-0.5">🛒</span>
+                  <span class="mr-3 mt-0.5"><EmojiText text="🛒" /></span>
                   <span>{{ t('about.focus4') }}</span>
                 </li>
               </ul>

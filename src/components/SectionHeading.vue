@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import EmojiText from '@/components/EmojiText.vue'
+
 defineProps<{
   title: string
 }>()
@@ -6,6 +8,6 @@ defineProps<{
 
 <template>
   <h2 class="text-3xl font-bold text-foreground text-center mb-10">
-    {{ title }}
+    <EmojiText :text="title" />
   </h2>
 </template>
