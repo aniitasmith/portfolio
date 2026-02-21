@@ -143,9 +143,9 @@ export const projects: Record<Locale, Project[]> = {
     {
       id: 'premiere-extension',
       title: 'Moonvalley Adobe Premiere Pro Extension',
-      description: 'Public Adobe Premiere Pro extension (React, Vite, CEP/UXP) that lets creators generate and insert AI videos inside Premiere Pro',
+      description: 'Public Adobe Premiere Pro extension (React, Vite, Adobe APIs) that lets creators generate and insert AI videos inside Premiere Pro',
       longDescription: 'A publicly shipped Adobe Premiere Pro extension enabling creators to generate and insert AI videos directly inside Premiere Pro. I designed desktop-friendly auth + media sync workflows under extension constraints, built a reusable UI architecture, and integrated backend APIs for upload, job status, and delivery.',
-      technologies: ['React', 'Vite', 'TypeScript', 'CEP/UXP', 'Adobe APIs'],
+      technologies: ['React', 'Vite', 'TypeScript', 'CEP', 'Adobe APIs'],
       highlights: [
         'Shipped a public extension enabling creators to generate and insert AI videos inside Premiere Pro',
         'Designed auth and media sync workflows under desktop extension constraints; built reusable UI architecture',
@@ -157,35 +157,33 @@ export const projects: Record<Locale, Project[]> = {
     },
     {
       id: 'ai-canvas',
-      title: 'AI Canvas',
-      description: 'Generate images with AI using Replicate API. Enter a prompt and create stunning visuals instantly.',
-      longDescription: 'An interactive AI image generation tool built with Next.js and the Replicate API. Users can enter text prompts to generate images using Stable Diffusion XL, with options to download the results.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Replicate API'],
+      title: 'Emoji Canvas Generator',
+      description: 'Generate cute emoji-style images with AI (FLUX) and compose them on an interactive canvas with shapes, drawing, and text.',
+      longDescription: 'A creative web app that generates emoji-style images from text using Hugging Face FLUX.1-schnell, then lets you arrange them on an infinite canvas with Fabric.js: pan/zoom, shapes, freehand drawing, text, layer controls, undo/redo, and export as PNG.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Fabric.js', 'Hugging Face API'],
       highlights: [
-        'AI-powered image generation with SDXL model',
-        'Real-time generation status and preview',
-        'Download generated images directly'
+        'AI emoji-style image generation with FLUX and prompt enhancement',
+        'Interactive canvas: pan, zoom, shapes, drawing, text, layer management',
+        'Undo/redo and export composition as PNG'
       ],
       link: 'https://ai-canvas-seven.vercel.app',
-      github: 'https://github.com/aniitasmith/ai-canvas',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80'
+      imageSrc: '/emoji-canvas.png'
     },
     {
-      id: 'json-formatter',
-      title: 'JSON Formatter',
-      description: 'Format, validate, and minify JSON with syntax highlighting. A developer tool for working with JSON data.',
-      longDescription: 'A clean and simple JSON formatting tool with syntax highlighting, validation, and minification. Features dark mode support and instant copy to clipboard functionality.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Syntax Highlighter'],
+      id: 'fluxcambio',
+      title: 'FluxCambio',
+      description: 'USDT and REF converter for Venezuela with BCV and Binance P2P rates, arbitrage comparator, and CAD conversion.',
+      longDescription: 'A conversion calculator (REF, VES, CAD) with real-time BCV and Binance P2P rates. Includes arbitrage comparison (USD vs Bs), conversion history, historical rate charts, CSV export, and glassmorphism UI. Built as a PWA with Next.js, Recharts, and Framer Motion.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Framer Motion', 'SWR'],
       highlights: [
-        'Real-time JSON validation with error messages',
-        'Format and minify with one click',
-        'Dark/light mode toggle'
+        'Real-time BCV and Binance P2P rates; REF, VES, and CAD conversion modes',
+        'Arbitrage comparator to choose between paying in USD or bolívars',
+        'Conversion history, 7/30/90-day rate charts, and PWA support'
       ],
-      link: 'https://json-formatter-five-mu.vercel.app',
-      github: 'https://github.com/aniitasmith/json-formatter',
+      link: 'https://fluxcambio.vercel.app',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80'
+      imageSrc: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80'
     },
     {
       id: 'color-palette',
@@ -199,7 +197,6 @@ export const projects: Record<Locale, Project[]> = {
         'Export palette as CSS variables'
       ],
       link: 'https://color-palette-seven-lemon.vercel.app',
-      github: 'https://github.com/aniitasmith/color-palette',
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=800&q=80'
     }
@@ -208,9 +205,9 @@ export const projects: Record<Locale, Project[]> = {
     {
       id: 'premiere-extension',
       title: 'Extensión de Moonvalley para Adobe Premiere Pro',
-      description: 'Extensión pública para Premiere Pro (React, Vite, CEP/UXP) que permite generar e insertar videos con IA dentro de Premiere Pro',
+      description: 'Extensión pública para Premiere Pro (React, Vite, Adobe APIs) que permite generar e insertar videos con IA dentro de Premiere Pro',
       longDescription: 'Extensión pública para Adobe Premiere Pro que permite generar e insertar videos con IA directamente dentro de Premiere. Diseñé flujos de auth y sincronización de media bajo restricciones de extensiones de escritorio, construí una arquitectura de UI reutilizable e integré APIs backend para upload, estado de jobs y entrega.',
-      technologies: ['React', 'Vite', 'TypeScript', 'CEP/UXP', 'APIs de Adobe'],
+      technologies: ['React', 'Vite', 'TypeScript', 'CEP', 'APIs de Adobe'],
       highlights: [
         'Entregué una extensión pública para generar e insertar videos con IA dentro de Premiere Pro',
         'Diseñé flujos de auth y sincronización de media bajo restricciones de extensión; arquitectura de UI reutilizable',
@@ -222,35 +219,33 @@ export const projects: Record<Locale, Project[]> = {
     },
     {
       id: 'ai-canvas',
-      title: 'AI Canvas',
-      description: 'Genera imágenes con IA usando la API de Replicate. Escribe un prompt y crea visuales impresionantes al instante.',
-      longDescription: 'Una herramienta interactiva de generación de imágenes con IA construida con Next.js y la API de Replicate. Los usuarios pueden escribir prompts de texto para generar imágenes usando Stable Diffusion XL, con opción de descargar los resultados.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Replicate API'],
+      title: 'Emoji Canvas Generator',
+      description: 'Genera imágenes estilo emoji con IA (FLUX) y compónlas en un canvas interactivo con formas, dibujo y texto.',
+      longDescription: 'App web creativa que genera imágenes estilo emoji desde texto con Hugging Face FLUX.1-schnell, y te permite organizarlas en un canvas infinito con Fabric.js: pan/zoom, formas, dibujo libre, texto, capas, deshacer/rehacer y exportar como PNG.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Fabric.js', 'Hugging Face API'],
       highlights: [
-        'Generación de imágenes con IA usando el modelo SDXL',
-        'Estado de generación en tiempo real y preview',
-        'Descarga directa de las imágenes generadas'
+        'Generación de imágenes estilo emoji con FLUX y mejora de prompts',
+        'Canvas interactivo: pan, zoom, formas, dibujo, texto, capas',
+        'Deshacer/rehacer y exportar la composición como PNG'
       ],
       link: 'https://ai-canvas-seven.vercel.app',
-      github: 'https://github.com/aniitasmith/ai-canvas',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1547954575-855750c57bd3?w=800&q=80'
+      imageSrc: '/emoji-canvas.png'
     },
     {
-      id: 'json-formatter',
-      title: 'JSON Formatter',
-      description: 'Formatea, valida y minifica JSON con syntax highlighting. Una herramienta para desarrolladores.',
-      longDescription: 'Una herramienta simple y limpia para formatear JSON con syntax highlighting, validación y minificación. Incluye modo oscuro y función de copiar al portapapeles.',
-      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Syntax Highlighter'],
+      id: 'fluxcambio',
+      title: 'FluxCambio',
+      description: 'Conversor de USDT y REF para Venezuela con tasas BCV y Binance P2P, comparador de arbitraje y conversión CAD.',
+      longDescription: 'Calculadora de conversión (REF, VES, CAD) con tasas BCV y Binance P2P en tiempo real. Incluye comparador de arbitraje (USD vs Bs), historial de conversiones, gráficos históricos de tasas, exportación CSV e interfaz glassmorphism. PWA con Next.js, Recharts y Framer Motion.',
+      technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Recharts', 'Framer Motion', 'SWR'],
       highlights: [
-        'Validación de JSON en tiempo real con mensajes de error',
-        'Formatear y minificar con un click',
-        'Toggle de modo oscuro/claro'
+        'Tasas BCV y Binance P2P en tiempo real; modos REF, VES y CAD',
+        'Comparador de arbitraje para elegir entre pagar en USD o bolívares',
+        'Historial de conversiones, gráficos 7/30/90 días y soporte PWA'
       ],
-      link: 'https://json-formatter-five-mu.vercel.app',
-      github: 'https://github.com/aniitasmith/json-formatter',
+      link: 'https://fluxcambio.vercel.app',
       featured: true,
-      imageSrc: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80'
+      imageSrc: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&q=80'
     },
     {
       id: 'color-palette',
@@ -264,7 +259,6 @@ export const projects: Record<Locale, Project[]> = {
         'Exporta la paleta como variables CSS'
       ],
       link: 'https://color-palette-seven-lemon.vercel.app',
-      github: 'https://github.com/aniitasmith/color-palette',
       featured: true,
       imageSrc: 'https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=800&q=80'
     }

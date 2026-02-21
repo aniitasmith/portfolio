@@ -13,12 +13,12 @@ export default {
     title: 'Ana Smith',
     subtitle: 'Frontend-leaning Product Engineer',
     location: 'Ontario, Canada',
-    description: 'I build UI-heavy workflows, editor experiences, and product features. Specialized in React, Next.js, Vue, and creative tools.',
+    description: 'I build UI-heavy products, with complex and interesting features. Specialized in React, Next.js, Vue, and creative tools.',
     resume: 'Experience',
     experience: 'Experience',
     education: 'Education',
     skills: 'Skills',
-    heroTagline: 'Building UI-heavy workflows & editor experiences',
+    heroTagline: 'Crafting AI-powered tools with pixel-perfect precision',
   },
   resume: {
     education: {
@@ -52,7 +52,7 @@ export default {
     email: 'Email',
     github: 'GitHub',
     linkedin: 'LinkedIn',
-    resume: 'Download Resume',
+    resume: 'Resume',
   },
   footer: {
     backToTop: 'Back to top',

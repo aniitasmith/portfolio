@@ -13,12 +13,12 @@ export default {
     title: 'Ana Smith',
     subtitle: 'Ingeniera de Producto con Enfoque Frontend',
     location: 'Ontario, Canadá',
-    description: 'Construyo flujos de trabajo con UI pesada, experiencias de editor y características de producto. Especializada en React, Next.js, Vue y herramientas creativas.',
+    description: 'Construyo productos con UI pesada, con características complejas e interesantes. Especializada en React, Next.js, Vue y herramientas creativas.',
     resume: 'Experiencia',
     experience: 'Experiencia',
     education: 'Educación',
     skills: 'Habilidades',
-    heroTagline: 'Construyendo flujos de trabajo con UI pesada',
+    heroTagline: 'Creando herramientas de IA con precisión visual',
   },
   resume: {
     education: {
