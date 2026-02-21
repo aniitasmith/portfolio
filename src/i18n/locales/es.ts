@@ -30,12 +30,13 @@ export default {
   about: {
     title: 'Sobre Mí',
     subtitle: 'Desarrolladora full-stack enfocada en producto, con 3+ años en IA y e-commerce',
+    bioTitle: 'Quién soy',
     bio: 'Soy desarrolladora de software full-stack enfocada en producto, con más de 3 años construyendo productos de IA y e-commerce con TypeScript en React y Vue. Tengo fortaleza en arquitectura frontend y trabajo de cerca con equipos de diseño para entregar experiencias cuidadas y centradas en el usuario, con features confiables gracias a testing y ciclos de release rápidos. Resido en Guelph, ON, Canadá. Hablo español e inglés.',
-    focus: 'En qué trabajo:',
-    focus1: 'Productos de IA y video — desde editores interactivos hasta extensiones públicas (ej. Adobe Premiere Pro en Exchange)',
-    focus2: 'Experiencias de editor y canvas — canvas infinito (Vue + Fabric.js), UX mobile-friendly y patrones de UI reutilizables',
-    focus3: 'Flujos de producto de punta a punta — frontend y backend (FastAPI, Node, Supabase), APIs e integraciones',
-    focus4: 'E-commerce y storefronts — VTEX, carrito/checkout y QA cross-browser con diseño y producto',
+    focus: 'Lo que he construido:',
+    focus1: 'Productos de IA y video: desde editores interactivos hasta extensiones públicas (ej. Adobe Premiere Pro en Exchange)',
+    focus2: 'Experiencias de editor y canvas: canvas infinito (Vue + Fabric.js), UX mobile-friendly y patrones de UI reutilizables',
+    focus3: 'Flujos de producto de punta a punta: frontend y backend (FastAPI, Node, Supabase), APIs e integraciones',
+    focus4: 'E-commerce y storefronts: VTEX, carrito/checkout y QA cross-browser con diseño y producto',
   },
   projects: {
     title: 'Proyectos',
@@ -46,7 +47,7 @@ export default {
   },
   contact: {
     title: 'Contáctame',
-    subtitle: 'Abierta a oportunidades remotas en Canadá',
+    subtitle: 'Abierta a trabajo en Canadá y roles remotos a nivel mundial',
     description: 'Actualmente estoy abierta a roles frontend y fullstack, especialmente aquellos enfocados en flujos de trabajo con UI pesada, experiencias de editor/canvas y productos de IA.',
     email: 'Email',
     github: 'GitHub',

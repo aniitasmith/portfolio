@@ -14,7 +14,9 @@ const { t } = useI18n()
         <SectionHeading :title="`✨ ${t('about.title')}`" />
         <div class="grid md:grid-cols-2 gap-8">
           <div class="bg-surface/80 backdrop-blur-sm rounded-2xl border border-separator/40 p-8 shadow-lg">
-            <p class="text-2xl mb-4"><EmojiText text="👩‍💻" /></p>
+            <h3 class="text-xl font-semibold text-foreground mb-4">
+              <EmojiText :text="`👩‍💻 ${t('about.bioTitle')}`" />
+            </h3>
             <p class="text-lg text-foreground leading-relaxed">
               {{ t('about.bio') }}
             </p>
@@ -33,7 +35,7 @@ const { t } = useI18n()
                 <span>{{ t('about.focus2') }}</span>
               </li>
               <li class="flex items-start text-foreground">
-                <span class="mr-3 mt-0.5"><EmojiText text="⚡" /></span>
+                <span class="mr-3 mt-0.5"><EmojiText text="🔗" /></span>
                 <span>{{ t('about.focus3') }}</span>
               </li>
               <li class="flex items-start text-foreground">
