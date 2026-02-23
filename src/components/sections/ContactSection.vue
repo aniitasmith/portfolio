@@ -26,7 +26,7 @@ const contactLinks = [
     external: true,
   },
   {
-    href: 'https://drive.google.com/file/d/1vNvRNxt4sju5u0PV3dI8qVbuv5-IOED5/view?usp=sharing',
+    href: 'https://drive.google.com/file/d/1LeM3v5UXE1pbbEtBgT8OhenODLIzxhYJ/view?usp=sharing',
     icon: FileDown,
     labelKey: 'contact.resume',
     external: true,
