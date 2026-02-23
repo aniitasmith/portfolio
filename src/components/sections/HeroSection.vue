@@ -31,7 +31,7 @@ const { t } = useI18n()
           </p>
           <div class="flex flex-wrap gap-4">
             <a
-              href="https://drive.google.com/file/d/1vNvRNxt4sju5u0PV3dI8qVbuv5-IOED5/view?usp=sharing"
+              href="https://drive.google.com/file/d/1LeM3v5UXE1pbbEtBgT8OhenODLIzxhYJ/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-accent hover:bg-accent-hover text-white font-medium transition-colors"
