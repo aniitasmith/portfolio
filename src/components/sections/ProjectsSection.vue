@@ -22,7 +22,7 @@ const { t } = useI18n()
         </p>
         <div class="grid md:grid-cols-2 gap-8">
           <div
-            v-for="project in projects"
+            v-for="(project, index) in projects"
             :key="project.id"
             class="group bg-surface/80 backdrop-blur-sm rounded-2xl border border-separator/40 overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1"
           >
@@ -30,7 +30,10 @@ const { t } = useI18n()
               <img
                 :src="project.imageSrc"
                 :alt="project.title"
-                loading="lazy"
+                width="400"
+                height="192"
+                :fetchpriority="index === 0 ? 'high' : 'low'"
+                :loading="index === 0 ? 'eager' : 'lazy'"
                 class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />

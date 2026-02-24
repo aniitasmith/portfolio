@@ -61,6 +61,10 @@ const { t } = useI18n()
                 <img
                   :src="avatarImg"
                   alt="Avatar"
+                  width="256"
+                  height="256"
+                  fetchpriority="high"
+                  loading="eager"
                   class="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full saturate-[0.7] brightness-105 contrast-[0.95]"
                 />
                 <!-- Pastel overlay -->
