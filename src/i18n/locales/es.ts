@@ -31,7 +31,7 @@ export default {
     title: 'Sobre Mí',
     subtitle: 'Desarrolladora full-stack enfocada en producto, con 3+ años en IA y e-commerce',
     bioTitle: 'Quién soy',
-    bio: 'Soy desarrolladora de software full-stack enfocada en producto, con más de 3 años construyendo productos de IA y e-commerce con TypeScript en React y Vue. Tengo fortaleza en arquitectura frontend y trabajo de cerca con equipos de diseño para entregar experiencias cuidadas y centradas en el usuario, con features confiables gracias a testing y ciclos de release rápidos. Resido en Guelph, ON, Canadá. Hablo español e inglés.',
+    bio: 'Soy desarrolladora de software full-stack enfocada en producto, con más de 3 años construyendo productos de IA y e-commerce con TypeScript (React/Vue). Tengo fortaleza en arquitectura frontend y trabajo de cerca con equipos de diseño para entregar experiencias cuidadas y centradas en el usuario, con features confiables gracias a testing y ciclos de release rápidos. Resido en ON, Canadá. Hablo español e inglés.',
     focus: 'Lo que he construido',
     focus1: 'Productos de IA y video: desde editores interactivos hasta extensiones públicas (ej. Adobe Premiere Pro en Exchange)',
     focus2: 'Experiencias de editor y canvas: canvas infinito (Vue + Fabric.js), UX mobile-friendly y patrones de UI reutilizables',
