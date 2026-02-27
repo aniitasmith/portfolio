@@ -56,12 +56,12 @@ export const education: Record<Locale, Education[]> = {
 export const experiences: Record<Locale, Experience[]> = {
   en: [
     {
-      title: 'Software Developer',
+      title: 'Software Developer (Founding Engineer)',
       company: 'Moonvalley',
       location: 'Toronto, Canada',
       period: 'Jan 2024 - Jan 2026',
       description: [
-        "Worked on Moonvalley's AI video platform (Next.js, TypeScript, Tailwind, Supabase, Python), shipping UI/UX improvements, wiring product flows to backend services, and supporting fast release cycles",
+        "As a founding engineer at Moonvalley, I worked on its AI video platform (Next.js, TypeScript, Tailwind, Supabase, Python), shipping UI/UX improvements, wiring product flows to backend services, and supporting fast release cycles",
         'Led Moonvalley redesign into an interactive video editor, building complex editing interactions and reusable UI patterns',
         'Built Maker.ai (Vue + Fabric.js), developing an infinite-canvas editing experience, improving mobile usability, and migrating styling to Tailwind CSS',
         'Built and maintained APIs and integrations for product workflows using Python (FastAPI) and PostgreSQL (SQLAlchemy), supporting generation, data persistence, and feature delivery',
@@ -97,12 +97,12 @@ export const experiences: Record<Locale, Experience[]> = {
   ],
   es: [
     {
-      title: 'Desarrolladora de Software',
+      title: 'Software Developer (Founding Engineer)',
       company: 'Moonvalley',
       location: 'Toronto, Canadá',
       period: 'Ene 2024 - Ene 2026',
       description: [
-        'Trabajé en la plataforma de video con IA de Moonvalley (Next.js, TypeScript, Tailwind, Supabase, Python), entregando mejoras de UI/UX, conectando flujos de producto a servicios backend y soportando ciclos de release rápidos',
+        'Como Founding Engineer de Moonvalley, trabajé en su plataforma de video con IA (Next.js, TypeScript, Tailwind, Supabase, Python), entregando mejoras de UI/UX, conectando flujos de producto a servicios backend y soportando ciclos de release rápidos',
         'Lideré el rediseño de Moonvalley hacia un editor de video interactivo, construyendo interacciones complejas de edición y patrones de UI reutilizables',
         'Construí Maker.ai (Vue + Fabric.js), desarrollando una experiencia de edición en canvas infinito, mejorando la usabilidad móvil y migrando estilos a Tailwind CSS',
         'Construí y mantuve APIs e integraciones para flujos de producto usando Python (FastAPI) y PostgreSQL (SQLAlchemy), soportando generación, persistencia de datos y entrega de features',
