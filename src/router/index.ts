@@ -3,6 +3,7 @@ import type { RouteRecordRaw } from 'vue-router'
 import { locales, defaultLocale, type Locale } from '@/i18n'
 import i18n from '@/i18n'
 import HomePage from '@/components/HomePage.vue'
+import EmptyRoutePage from '@/components/EmptyRoutePage.vue'
 
 const routes: RouteRecordRaw[] = [
   {
@@ -25,6 +26,11 @@ const routes: RouteRecordRaw[] = [
       i18n.global.locale.value = locale as Locale
       next()
     },
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'not-found',
+    component: EmptyRoutePage,
   },
 ]
 
