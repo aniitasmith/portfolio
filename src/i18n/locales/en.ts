@@ -57,4 +57,9 @@ export default {
   footer: {
     backToTop: 'Back to top',
   },
+  notFound: {
+    title: 'Page not found',
+    message: 'This route does not exist. Use the buttons below to go back to the home page.',
+    backHome: 'Go home',
+  },
 }
